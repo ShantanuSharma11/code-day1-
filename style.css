@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main1
+{
+    background: url("images/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgba(255, 255, 255, 0.15); /* semi-transparent */
+  backdrop-filter: blur(10px); /* glass effect */
+  border-radius: 10px;
+  border-bottom: 2px solid #2196f3; /* thin blue border */
+  position: fixed; /* stick to top */
+  margin-top: 20px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height:60px;
+  z-index: 1000;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Menu */
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+header ul li {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+header ul li:hover {
+  color: #2196f3; /* hover effect */
+}
+
+
+
+/* section */
+/* Section Background */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end; /* push content to right */
+  align-items: center;
+  background: url("images/background.jpg") no-repeat center center/cover;
+  padding-right: 80px; /* spacing from right edge */
+}
+
+/* Content Box */
+.hero-content {
+  color: white;
+  max-width: 500px;
+  text-align: left;
+}
+
+/* Heading */
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+/* Button */
+.btn {
+  background: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+  transform: translateX(5px);
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Social Bar */
+.social-bar {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  transform: translateY(-50%);
+  background: linear-gradient(180deg, #3b2b1a, #2a1a0f);
+  padding: 20px 10px;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+
+
+
+width: 62px;
+height: 190px;
+margin-top: 654px;
+margin-left: 121.82px;
+border-radius: 20px;
+opacity: 1;
+border-width: 1px;
+
+}
+
+/* Icons */
+.social-bar a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-bar a:hover {
+  color: #2196f3;
+  transform: scale(1.2);
+}
+
+.three-sections {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 45%;
+      gap: 0px;
+      padding: 0px;
+      
+    }
+
+    .card {
+      width: 250px;
+      height: 250px;
+      margin-bottom: 50px;
+      border-radius: 20px;
+      color: white;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    }
+
+    .card h2 {
+      font-size: 22px;
+      margin-bottom: 15px;
+    }
+
+    .card ul {
+      list-style: none;
+      margin-bottom: 20px;
+    }
+
+    .card ul li {
+      margin: 8px 0;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: rgba(255,255,255,0.9);
+      color: black;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: black;
+      color: white;
+    }
+
+    /* Background placeholders */
+    .left {
+      background-image: url("images/Rectangle2.png");
+    }
+    .middle {
+      background-image: url("images/boy.jpg");
+      border-radius: 40% 40% 40% 40%; /* unique shape */
+    }
+    .right {
+      background-image: url("images/Rectangle1.png");
+    }
